@@ -6,9 +6,6 @@ const links = header.querySelectorAll('.header__link');
 
 burger.addEventListener('click', () => {
   logo.classList.toggle('hidden');
+  header.classList.toggle('open');
   burger.classList.toggle('open');
-  nav.classList.toggle('open');
-  links.forEach((link) => {
-    link.classList.toggle('visible');
-  });
 });

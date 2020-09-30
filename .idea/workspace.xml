@@ -15,6 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1decacdd-56eb-4b4f-80d9-dcc57a8128b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/includes/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/includes/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/includes/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header/header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601131929170</updated>
       <workItem from="1601131930737" duration="1225000" />
-      <workItem from="1601460807456" duration="30649000" />
+      <workItem from="1601460807456" duration="32069000" />
     </task>
     <task id="LOCAL-00001" summary="Added more features:&#10;- bundle analyzer,&#10;- friendly errors plugin,&#10;- environment plugin,&#10;- js and css linters,&#10;- added aliases,&#10;- improved dev-build performance,&#10;- resolve-url-loader for scss,&#10;- refactored postcss config,&#10;-">
       <created>1601132710520</created>
@@ -97,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601499252458</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added variables to header.scss">
+      <created>1601499631711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601499631711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,9 +128,14 @@
     <MESSAGE value="Added more features:&#10;- bundle analyzer,&#10;- friendly errors plugin,&#10;- environment plugin,&#10;- js and css linters,&#10;- added aliases,&#10;- improved dev-build performance,&#10;- resolve-url-loader for scss,&#10;- refactored postcss config,&#10;-" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added header, slider, responsiveness." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added header, slider, responsiveness." />
+    <MESSAGE value="Added variables to header.scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added variables to header.scss" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2199" y="704" width="797" height="219" key="#Stylelint" timestamp="1601500131217">
+      <screen x="1920" y="413" width="1366" height="768" />
+    </state>
+    <state x="2199" y="704" width="797" height="219" key="#Stylelint/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601500131217" />
     <state x="2061" y="472" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601463769922">
       <screen x="1920" y="413" width="1366" height="768" />
     </state>
@@ -157,11 +171,11 @@
     </state>
     <state x="2092" y="36" key="SettingsEditor/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601133113442" />
     <state x="2092" y="449" key="SettingsEditor/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601460889699" />
-    <state x="2198" y="550" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1601499256172">
+    <state x="2198" y="550" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1601499635338">
       <screen x="1920" y="413" width="1366" height="768" />
     </state>
     <state x="2198" y="137" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601132713425" />
-    <state x="2198" y="550" key="Vcs.Push.Dialog.v2/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601499256172" />
+    <state x="2198" y="550" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601499635338" />
     <state x="2267" y="385" key="run.anything.popup" timestamp="1601484736410">
       <screen x="1920" y="413" width="1366" height="768" />
     </state>
