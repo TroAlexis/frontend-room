@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1decacdd-56eb-4b4f-80d9-dcc57a8128b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/shared.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/libs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1i3MfsyEuUAEwPEfni6LrfRhfA6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/scss" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1decacdd-56eb-4b4f-80d9-dcc57a8128b1" name="Default Changelist" comment="" />
+      <created>1601131929170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601131929170</updated>
+      <workItem from="1601131930737" duration="1225000" />
+      <workItem from="1601460807456" duration="912000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added more features:&#10;- bundle analyzer,&#10;- friendly errors plugin,&#10;- environment plugin,&#10;- js and css linters,&#10;- added aliases,&#10;- improved dev-build performance,&#10;- resolve-url-loader for scss,&#10;- refactored postcss config,&#10;-">
+      <created>1601132710520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601132710520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added more features:&#10;- bundle analyzer,&#10;- friendly errors plugin,&#10;- environment plugin,&#10;- js and css linters,&#10;- added aliases,&#10;- improved dev-build performance,&#10;- resolve-url-loader for scss,&#10;- refactored postcss config,&#10;-" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more features:&#10;- bundle analyzer,&#10;- friendly errors plugin,&#10;- environment plugin,&#10;- js and css linters,&#10;- added aliases,&#10;- improved dev-build performance,&#10;- resolve-url-loader for scss,&#10;- refactored postcss config,&#10;-" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2061" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601133156186">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2061" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601133156186" />
+    <state x="2120" y="138" width="1166" height="533" key="DiffContextDialog" timestamp="1601132612704">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2120" y="138" width="1166" height="533" key="DiffContextDialog/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601132612704" />
+    <state x="2386" y="572" width="424" height="482" key="FileChooserDialogImpl" timestamp="1601460886242">
+      <screen x="1920" y="413" width="1366" height="768" />
+    </state>
+    <state x="2386" y="572" width="424" height="482" key="FileChooserDialogImpl/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601460886242" />
+    <state width="960" height="1024" key="GridCell.Tab.0.bottom" timestamp="1601461580556">
+      <screen x="1920" y="413" width="1366" height="768" />
+    </state>
+    <state width="960" height="1024" key="GridCell.Tab.0.bottom/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601461580556" />
+    <state width="960" height="1024" key="GridCell.Tab.0.center" timestamp="1601461580556">
+      <screen x="1920" y="413" width="1366" height="768" />
+    </state>
+    <state width="960" height="1024" key="GridCell.Tab.0.center/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601461580556" />
+    <state width="960" height="1024" key="GridCell.Tab.0.left" timestamp="1601461580555">
+      <screen x="1920" y="413" width="1366" height="768" />
+    </state>
+    <state width="960" height="1024" key="GridCell.Tab.0.left/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601461580555" />
+    <state width="960" height="1024" key="GridCell.Tab.0.right" timestamp="1601461580556">
+      <screen x="1920" y="413" width="1366" height="768" />
+    </state>
+    <state width="960" height="1024" key="GridCell.Tab.0.right/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601461580556" />
+    <state x="2092" y="449" key="SettingsEditor" timestamp="1601460889699">
+      <screen x="1920" y="413" width="1366" height="768" />
+    </state>
+    <state x="2092" y="36" key="SettingsEditor/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601133113442" />
+    <state x="2092" y="449" key="SettingsEditor/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601460889699" />
+    <state x="2198" y="137" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1601132713425">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2198" y="137" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601132713425" />
+  </component>
+</project>
