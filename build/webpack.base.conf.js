@@ -56,7 +56,7 @@ module.exports = {
     filename: `${PATHS.assets}/js/[name].${(process.env.NODE_ENV === 'production') ? '[contenthash].' : ''}js`,
     path: PATHS.dist,
     pathinfo: process.env.NODE_ENV === 'production',
-    publicPath: '/toxin-fsd/',
+    publicPath: '/frontend-room/',
   },
   optimization: {
     splitChunks: process.env.NODE_ENV === 'production' ? {
@@ -174,7 +174,7 @@ module.exports = {
     ...PAGES.map((page) => new HtmlWebpackPlugin({
       template: `${PAGES_DIR}/${page}`,
       filename: `./${page.replace(/\.pug/, '.html')}`,
-      favicon: `${PATHS.src}/${PATHS.assets}/img/favicon.ico`,
+      favicon: `${PATHS.src}/${PATHS.assets}/img/favicon-32x32.png`,
       minify: {
         collapseWhitespace: process.env.NODE_ENV === 'production',
         removeComments: process.env.NODE_ENV === 'production',

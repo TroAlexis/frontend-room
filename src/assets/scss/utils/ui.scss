@@ -1,14 +1,26 @@
 .u-container {
-	max-width: 1230px;
+	max-width: 1400px;
 	margin: 0 auto;
-	@include media-sm {
-		padding: {
-			right: rem(20px);
-			left: rem(20px);
-		};
+}
+
+.u-img-responsive {
+	position: relative;
+
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
-	padding: {
-		right: rem(35px);
-		left: rem(35px);
-	};
+}
+
+.u-hidden {
+	display: none;
+}
+
+.u-visible {
+	display: block;
 }

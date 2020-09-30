@@ -1,0 +1,21 @@
+mixin slider(props)
+
+    .slider
+        .slider__wrapper
+            each slide in props.slides
+                .slider__slide
+                    .slider__img.u-img-responsive
+                        img(src=require(`Images/slides/${slide.img.name}.jpg`), alt=slide.img.alt)
+                        .caption__controls.controls
+                            btn.controls__back
+                                div
+                            btn.controls__forward
+                                div
+                    .slider__caption.caption
+                        h1.caption__header= slide.caption.header
+                        p.caption__info= slide.caption.info
+                        a.caption__cta
+                            span shop now
+                            img(src=require('Images/icons/icon-arrow.svg'))
+
+

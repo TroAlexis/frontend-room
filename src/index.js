@@ -1,7 +1,5 @@
 // WEBPACK ENTRY FILE MAIN
 
-// JS
-import './js';
+import 'Includes/header/header';
 
-// SCSS
-import './assets/scss/shared.scss';
+import 'Scss/index.scss';

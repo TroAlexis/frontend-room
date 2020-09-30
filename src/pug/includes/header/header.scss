@@ -1,0 +1,187 @@
+$header-padding: rem(60px);
+$header-gap: rem(20px);
+
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	z-index: 1;
+
+	width: 100%;
+	height: rem(110px);
+
+	color: $color-font--white;
+
+	transform: translateX(-50%);
+
+	&__nav {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		padding: $header-padding;
+
+		transition: background-color ease 0.5s;
+		@include media-phone {
+			padding: $header-padding/2;
+		}
+	}
+
+	&__nav.open {
+		background-color: $color-font--white;
+
+		.header__list {
+			justify-content: space-evenly;
+		}
+	}
+
+	&__burger {
+		$burger-height: 14px;
+		$burger-line-height: 2px;
+		position: relative;
+
+		display: none;
+		width: 20px;
+		height: $burger-height;
+		margin-right: rem(30px);
+		overflow: visible;
+		@include media-phone {
+			display: block;
+		}
+
+		span {
+			position: absolute;
+			left: 0;
+
+			display: block;
+			width: 100%;
+			height: $burger-line-height;
+
+			background-color: $color-font--white;
+			transform-origin: left center;
+
+			transition: ease-in-out 0.25s;
+		}
+
+		span:nth-child(1) {
+			top: 0;
+		}
+
+		span:nth-child(2) {
+			top: $burger-height/2 - $burger-line-height/2;
+
+			opacity: 1;
+		}
+
+		span:nth-child(3) {
+			top: $burger-height - $burger-line-height;
+		}
+	}
+
+	&__burger.open {
+		span {
+			background-color: $color-font--secondary;
+		}
+
+		span:nth-child(1) {
+			top: -2px;
+			left: 3px;
+
+			transform: rotate(45deg);
+		}
+
+		span:nth-child(2) {
+			width: 0;
+
+			opacity: 0;
+		}
+
+		span:nth-child(3) {
+			left: 3px;
+
+			transform: rotate(-45deg);
+		}
+	}
+
+	&__list {
+		display: flex;
+		flex: 1 0 auto;
+		align-items: center;
+		@include media-phone {
+			justify-content: center;
+		}
+	}
+
+	&__item {
+
+		@include font(rem(14px), 500);
+		position: relative;
+
+		margin: 0 $header-gap 0 $header-gap;
+
+		letter-spacing: -1 * rem(1px);
+
+		cursor: pointer;
+
+	}
+
+	&__link {
+
+		transition: opacity ease 1s;
+
+		@include media-phone {
+			position: absolute;
+
+			margin-right: 0;
+
+			visibility: hidden;
+			opacity: 0;
+		}
+
+		&::after {
+			position: absolute;
+			bottom: -1 * rem(6px);
+			left: 50%;
+
+			display: none;
+			width: 50%;
+			height: 2px;
+			margin: 0 auto;
+
+			background-color: $color-font--white;
+			transform: translateX(-50%);
+
+			content: '';
+		}
+
+		&:hover::after {
+			display: block;
+		}
+	}
+
+	&__link.visible {
+		position: relative;
+
+		color: $color-font--main;
+		font-weight: 600;
+		font-size: rem(16px);
+
+		visibility: visible;
+		opacity: 1;
+
+		&::after {
+			background-color: $color-font--main;
+		}
+	}
+
+	&__brand {
+		@include font(rem(28px), 600);
+
+		margin: 0 rem(30px) 0 0;
+	}
+
+	&__brand.hidden {
+		display: none;
+	}
+
+}

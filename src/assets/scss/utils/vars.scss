@@ -2,7 +2,10 @@
 $font--main: 'Montserrat', Helvetica, Arial, sans-serif;
 
 // Size
-$color-font--main: #101010;
+$color-font--main: hsl(0, 0%, 0%);
+$color-font--secondary: hsl(0, 0%, 63%);
+$color-font--secondary-dark: hsl(0, 0%, 27%);
+$color-font--white: hsl(0, 0%, 100%);
 $font-size--main: 16px;
 $font-weight--main: 400;
 $line-height--main: 1;

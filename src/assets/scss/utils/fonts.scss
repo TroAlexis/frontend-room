@@ -1,2 +1,24 @@
 // Fonts here
+@font-face {
+	font-weight: 500;
+	font-family: Spartan;
+	src: url('~Fonts/Spartan-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-weight: 600;
+	font-family: Spartan;
+	src: url('~Fonts/Spartan-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-weight: 700;
+	font-family: Spartan;
+	src: url('~Fonts/Spartan-Bold.ttf') format('truetype');
+}
 
+@mixin font($font-size, $font-weight) {
+	font: {
+		size: $font-size;
+		weight: $font-weight;
+		family: Spartan, sans-serif;
+	};
+}
