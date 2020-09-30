@@ -14,30 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1decacdd-56eb-4b4f-80d9-dcc57a8128b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/icon-angle-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/icon-angle-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/icon-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/icon-hamburger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/slides/desktop-image-hero-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/slides/desktop-image-hero-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/slides/desktop-image-hero-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/includes/header/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/includes/header/header.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/includes/header/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/shared.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/ui.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/layout/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/includes/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header/header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601131929170</updated>
       <workItem from="1601131930737" duration="1225000" />
-      <workItem from="1601460807456" duration="30096000" />
+      <workItem from="1601460807456" duration="30649000" />
     </task>
     <task id="LOCAL-00001" summary="Added more features:&#10;- bundle analyzer,&#10;- friendly errors plugin,&#10;- environment plugin,&#10;- js and css linters,&#10;- added aliases,&#10;- improved dev-build performance,&#10;- resolve-url-loader for scss,&#10;- refactored postcss config,&#10;-">
       <created>1601132710520</created>
@@ -112,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601461834667</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added header, slider, responsiveness.">
+      <created>1601499252458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601499252458</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +118,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added more features:&#10;- bundle analyzer,&#10;- friendly errors plugin,&#10;- environment plugin,&#10;- js and css linters,&#10;- added aliases,&#10;- improved dev-build performance,&#10;- resolve-url-loader for scss,&#10;- refactored postcss config,&#10;-" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added header, slider, responsiveness." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added header, slider, responsiveness." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2061" y="472" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601463769922">
@@ -141,10 +127,11 @@
     </state>
     <state x="2061" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601133156186" />
     <state x="2061" y="472" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601463769922" />
-    <state x="2120" y="138" width="1166" height="533" key="DiffContextDialog" timestamp="1601132612704">
-      <screen x="1920" y="0" width="1366" height="768" />
+    <state x="2120" y="551" width="1166" height="533" key="DiffContextDialog" timestamp="1601499547250">
+      <screen x="1920" y="413" width="1366" height="768" />
     </state>
     <state x="2120" y="138" width="1166" height="533" key="DiffContextDialog/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601132612704" />
+    <state x="2120" y="551" width="1166" height="533" key="DiffContextDialog/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601499547250" />
     <state x="2386" y="572" width="424" height="482" key="FileChooserDialogImpl" timestamp="1601460886242">
       <screen x="1920" y="413" width="1366" height="768" />
     </state>
@@ -170,10 +157,11 @@
     </state>
     <state x="2092" y="36" key="SettingsEditor/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601133113442" />
     <state x="2092" y="449" key="SettingsEditor/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601460889699" />
-    <state x="2198" y="137" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1601132713425">
-      <screen x="1920" y="0" width="1366" height="768" />
+    <state x="2198" y="550" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1601499256172">
+      <screen x="1920" y="413" width="1366" height="768" />
     </state>
     <state x="2198" y="137" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601132713425" />
+    <state x="2198" y="550" key="Vcs.Push.Dialog.v2/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601499256172" />
     <state x="2267" y="385" key="run.anything.popup" timestamp="1601484736410">
       <screen x="1920" y="413" width="1366" height="768" />
     </state>

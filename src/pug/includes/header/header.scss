@@ -1,3 +1,4 @@
+$header-height: rem(110px);
 $header-padding: rem(60px);
 $header-gap: rem(20px);
 
@@ -9,7 +10,7 @@ $header-gap: rem(20px);
 	z-index: 1;
 
 	width: 100%;
-	height: rem(110px);
+	height: $header-height;
 
 	color: $color-font--white;
 
@@ -37,14 +38,14 @@ $header-gap: rem(20px);
 
 	&__burger {
 		$burger-height: 14px;
+		$burger-width: 20px;
 		$burger-line-height: 2px;
 		position: relative;
 
 		display: none;
-		width: 20px;
+		width: $burger-width;
 		height: $burger-height;
 		margin-right: rem(30px);
-		overflow: visible;
 		@include media-phone {
 			display: block;
 		}
@@ -139,13 +140,14 @@ $header-gap: rem(20px);
 		}
 
 		&::after {
+			$link-underline-height: 2px;
 			position: absolute;
 			bottom: -1 * rem(6px);
 			left: 50%;
 
 			display: none;
 			width: 50%;
-			height: 2px;
+			height: $link-underline-height;
 			margin: 0 auto;
 
 			background-color: $color-font--white;
