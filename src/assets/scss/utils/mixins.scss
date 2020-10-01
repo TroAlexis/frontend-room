@@ -16,7 +16,31 @@
 
 // MEDIA QUERIES MIXINS
 @mixin media($width) {
-	@media (max-width: $width) {
+	@media only screen and (max-width: $width) {
+		@content; }
+}
+
+@mixin media-desktop {
+	@media only screen
+		and (max-width: $width-desktop) {
+		@content; }
+}
+
+@mixin media-desktop-sm {
+	@media only screen
+		and (max-width: $width-desktop--sm) {
+		@content; }
+}
+
+@mixin media-tablet {
+	@media only screen
+		and (max-width: $width-tablet) {
+		@content; }
+}
+
+@mixin media-phone {
+	@media only screen
+		and (max-width: $width-phone) {
 		@content; }
 }
 
@@ -25,23 +49,4 @@
 		and (max-width: $width-phone--sm) {
 		@content; }
 }
-@mixin media-phone {
-	@media only screen
-		and (max-width: $width-phone) {
-		@content; }
-}
-@mixin media-tablet {
-	@media only screen
-		and (max-width: $width-tablet) {
-		@content; }
-}
-@mixin media-desktop-sm {
-	@media only screen
-		and (max-width: $width-desktop--sm) {
-		@content; }
-}
-@mixin media-desktop {
-	@media only screen
-		and (max-width: $width-desktop) {
-		@content; }
-}
+

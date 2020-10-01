@@ -1,0 +1,13 @@
+mixin about(props)
+    .about
+        .about__wrapper
+            - const [ img1, img2 ] = props.imgs
+            .about__img.u-img-responsive
+                img(src=require(`Images/about/image-about-${img1.src}.jpg`), alt=img1.alt)
+            - const { heading, info } = props.caption
+            .about__caption.caption.u-container
+                h2.caption__header= heading
+                p.caption__info= info
+            .about__img.u-img-responsive
+                img.about__img.u-img-responsive(src=require(`Images/about/image-about-${img2.src}.jpg`) alt=img2.alt)
+

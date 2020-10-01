@@ -11,11 +11,6 @@ $header-gap: rem(20px);
 
 	width: 100%;
 	height: $header-height;
-	padding: $header-padding;
-
-	@include media-phone {
-		padding: $header-padding/2;
-	}
 
 	color: $color-font--white;
 
@@ -66,7 +61,7 @@ $header-gap: rem(20px);
 		width: $burger-width;
 		height: $burger-height;
 		margin-right: rem(30px);
-		@include media-phone {
+		@include media-tablet {
 			display: block;
 		}
 
@@ -128,7 +123,7 @@ $header-gap: rem(20px);
 		display: flex;
 		flex: 1 0 auto;
 		align-items: center;
-		@include media-phone {
+		@include media-tablet {
 			justify-content: center;
 		}
 	}
@@ -150,7 +145,7 @@ $header-gap: rem(20px);
 
 		transition: opacity ease 1s;
 
-		@include media-phone {
+		@include media-tablet {
 			position: absolute;
 
 			margin-right: 0;

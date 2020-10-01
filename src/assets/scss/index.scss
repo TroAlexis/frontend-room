@@ -1,3 +1,14 @@
-@import 'shared';
+@import '~Scss/shared';
 @import '~Includes/header/header';
 @import '~Includes/slider/slider';
+@import '~Includes/about/about';
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.slider {
+	flex: 1 0 auto;
+}

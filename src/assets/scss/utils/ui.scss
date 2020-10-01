@@ -1,12 +1,14 @@
 .u-container {
 	max-width: 1400px;
 	margin: 0 auto;
+	padding: 0 rem(35px);
 }
 
 .u-img-responsive {
 	position: relative;
 
-	img {
+	img,
+	source {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -17,10 +19,63 @@
 	}
 }
 
-.u-hidden {
-	display: none;
-}
+.caption {
+	flex: 0 1 40%;
+	height: 100%;
+	padding: {
+		top: rem(90px);
+		bottom: rem(50px);
+	};
 
-.u-visible {
-	display: block;
+	&__header {
+		@include font(rem(45px), 600);
+
+		margin-bottom: rem(30px);
+
+		color: $color-font--main;
+		letter-spacing: -1 * rem(3px);
+	}
+
+	&__info {
+		@include font(rem(13px), 500);
+
+		margin-bottom: 30px;
+
+		color: $color-font--secondary;
+		line-height: rem(20px);
+		@include media-phone {
+			margin-bottom: 45px;
+		}
+	}
+
+	&__cta {
+		@include font(rem(13px), 500);
+		display: flex;
+		align-items: baseline;
+		margin-bottom: rem(40px);
+
+		color: $color-font--main;
+		letter-spacing: rem(9px);
+		text-transform: uppercase;
+
+		cursor: pointer;
+
+		transition: color ease 0.6s;
+
+		img {
+			margin-left: rem(30px);
+
+			transition: filter ease 0.6s;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color-font--secondary;
+
+			img {
+				filter: opacity(0.4);
+			}
+		}
+	}
 }

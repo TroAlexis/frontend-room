@@ -5,6 +5,9 @@
 
 	&__wrapper {
 		display: flex;
+		height: 100%;
+
+		transition: transform ease 1s;
 	}
 
 	&__slide {
@@ -22,64 +25,15 @@
 	}
 
 	&__img {
-		min-height: rem(550px);
-	}
-}
-
-.caption {
-	flex: 0 1 40%;
-	padding: rem(95px);
-	@include media-phone {
-		padding: rem(90px) rem(50px);
+		min-height: rem(450px);
 	}
 
-	&__header {
-		@include font(rem(45px), 600);
-
-		margin-bottom: rem(30px);
-
-		color: $color-font--main;
-		letter-spacing: -1 * rem(3px);
-	}
-
-	&__info {
-		@include font(rem(13px), 500);
-
-		margin-bottom: 30px;
-
-		color: $color-font--secondary;
-		line-height: rem(20px);
-		@include media-phone {
-			margin-bottom: 45px;
-		}
-	}
-
-	&__cta {
-		@include font(rem(13px), 500);
-		display: flex;
-		align-items: baseline;
-		margin-bottom: rem(40px);
-
-		color: $color-font--main;
-		letter-spacing: rem(9px);
-		text-transform: uppercase;
-
-		cursor: pointer;
-
-		transition: color ease 0.6s;
-
-		img {
-			margin-left: rem(30px);
-
-			transition: filter ease 0.6s;
-		}
-
-		&:hover {
-			color: $color-font--secondary;
-
-			img {
-				filter: opacity(0.4);
-			}
+	&__caption {
+		@media only screen and (min-width: $width-desktop) {
+			padding: {
+				right: rem(90px);
+				left: rem(90px);
+			};
 		}
 	}
 }
@@ -96,6 +50,10 @@
 
 	transform: translateX(100%);
 
+	@include media-desktop-sm {
+		transform: none;
+	}
+
 	&__back,
 	&__forward {
 		flex: 1 1 auto;
@@ -105,33 +63,26 @@
 
 		transition: background-color ease 0.6s;
 
-		&:hover {
+		&:hover,
+		&:focus,
+		&:active {
 			background-color: $color-font--secondary-dark;
 		}
-
-		div {
-			height: 100%;
-
-			background: {
-				position: center center;
-				repeat: no-repeat;
-			};
-		}
+		background: {
+			position: center center;
+			repeat: no-repeat;
+		};
 	}
 
 	&__back {
-		div {
-			background: {
-				image: url('~Images/icons/icon-angle-left.svg');
-			};
-		}
+		background: {
+			image: url('~Images/icons/icon-angle-left.svg');
+		};
 	}
 
 	&__forward {
-		div {
-			background: {
-				image: url('~Images/icons/icon-angle-right.svg');
-			};
-		}
+		background: {
+			image: url('~Images/icons/icon-angle-right.svg');
+		};
 	}
 }

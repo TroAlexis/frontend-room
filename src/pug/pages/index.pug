@@ -11,7 +11,7 @@ block content
   +slider({slides: [
       {
         img: {
-            name: 'desktop-image-hero-1',
+            name: 'image-hero-1',
             alt: 'Discover innovative ways to decorate'
         },
         caption: {
@@ -23,7 +23,7 @@ block content
       },
       {
           img: {
-              name: 'desktop-image-hero-2',
+              name: 'image-hero-2',
               alt: 'We are available all across the globe'
           },
           caption: {
@@ -35,7 +35,7 @@ block content
       },
       {
           img: {
-              name: 'desktop-image-hero-3',
+              name: 'image-hero-3',
               alt: 'Manufactured with the best materials'
           },
           caption: {
@@ -46,3 +46,23 @@ block content
           }
       },
     ]})
+  include ../includes/about/about
+  +about({
+    imgs: [
+      {
+        src: 'dark',
+        alt: 'Make each room unique'
+      },
+      {
+        src: 'light',
+        alt: 'Create a room in your own style'
+      }
+    ],
+    caption: {
+      heading: 'About our furniture',
+      info: 'Our multifunctional collection blends design and function to suit your individual taste. Make each room ' +
+          'unique, or pick a cohesive theme that best express your interests and what inspires you. Find the ' +
+          'furniture pieces you need, from traditional to contemporary styles or anything in between. Product ' +
+          'specialists are available to help you create your dream space.'
+    }
+  })

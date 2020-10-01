@@ -4,14 +4,13 @@ mixin slider(props)
         .slider__wrapper
             each slide in props.slides
                 .slider__slide
-                    .slider__img.u-img-responsive
-                        img(src=require(`Images/slides/${slide.img.name}.jpg`), alt=slide.img.alt)
+                    picture.slider__img.u-img-responsive
+                        source(srcset=require(`Images/slides/mobile-${slide.img.name}.jpg`) media='(max-width: 480px)')
+                        img(src=require(`Images/slides/desktop-${slide.img.name}.jpg`), alt=slide.img.alt)
                         .caption__controls.controls
-                            btn.controls__back
-                                div
-                            btn.controls__forward
-                                div
-                    .slider__caption.caption
+                            button(type='button').controls__back.control
+                            button(type='button').controls__forward.control
+                    .slider__caption.caption.u-container
                         h1.caption__header= slide.caption.header
                         p.caption__info= slide.caption.info
                         a.caption__cta
