@@ -52,13 +52,14 @@
 		@include font(rem(13px), 500);
 		display: flex;
 		align-items: baseline;
-		margin-bottom: rem(40px);
+		margin-bottom: rem(60px);
 
 		color: $color-font--main;
 		letter-spacing: rem(9px);
 		text-transform: uppercase;
 
 		cursor: pointer;
+		user-select: none;
 
 		transition: color ease 0.6s;
 

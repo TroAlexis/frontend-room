@@ -14,28 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1decacdd-56eb-4b4f-80d9-dcc57a8128b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about/image-about-dark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about/image-about-light.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/slides/mobile-image-hero-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/slides/mobile-image-hero-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/slides/mobile-image-hero-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/includes/about/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/includes/about/about.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/includes/about/about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/shared.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/ui.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/includes/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/about/about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/includes/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/includes/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/includes/slider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/slider/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/includes/slider/slider.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/slider/slider.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/includes/slider/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/slider/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +106,7 @@
       <workItem from="1601131930737" duration="1225000" />
       <workItem from="1601460807456" duration="32069000" />
       <workItem from="1601536480055" duration="20266000" />
+      <workItem from="1601630074471" duration="9864000" />
     </task>
     <task id="LOCAL-00001" summary="Added more features:&#10;- bundle analyzer,&#10;- friendly errors plugin,&#10;- environment plugin,&#10;- js and css linters,&#10;- added aliases,&#10;- improved dev-build performance,&#10;- resolve-url-loader for scss,&#10;- refactored postcss config,&#10;-">
       <created>1601132710520</created>
@@ -193,22 +181,26 @@
       <screen x="1920" y="413" width="1366" height="768" />
     </state>
     <state x="2386" y="572" width="424" height="482" key="FileChooserDialogImpl/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601460886242" />
-    <state width="970" height="677" key="GridCell.Tab.0.bottom" timestamp="1601469594837">
-      <screen x="1920" y="413" width="1366" height="768" />
+    <state width="1874" height="444" key="GridCell.Tab.0.bottom" timestamp="1601637188683">
+      <screen x="214" y="0" width="1920" height="1080" />
     </state>
     <state width="970" height="677" key="GridCell.Tab.0.bottom/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601469594837" />
-    <state width="970" height="677" key="GridCell.Tab.0.center" timestamp="1601469594837">
-      <screen x="1920" y="413" width="1366" height="768" />
+    <state width="1874" height="444" key="GridCell.Tab.0.bottom/214.0.1920.1080/0.1080.1366.768@214.0.1920.1080" timestamp="1601637188683" />
+    <state width="1874" height="444" key="GridCell.Tab.0.center" timestamp="1601637188683">
+      <screen x="214" y="0" width="1920" height="1080" />
     </state>
     <state width="970" height="677" key="GridCell.Tab.0.center/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601469594837" />
-    <state width="970" height="677" key="GridCell.Tab.0.left" timestamp="1601469594837">
-      <screen x="1920" y="413" width="1366" height="768" />
+    <state width="1874" height="444" key="GridCell.Tab.0.center/214.0.1920.1080/0.1080.1366.768@214.0.1920.1080" timestamp="1601637188683" />
+    <state width="1874" height="444" key="GridCell.Tab.0.left" timestamp="1601637188683">
+      <screen x="214" y="0" width="1920" height="1080" />
     </state>
     <state width="970" height="677" key="GridCell.Tab.0.left/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601469594837" />
-    <state width="970" height="677" key="GridCell.Tab.0.right" timestamp="1601469594837">
-      <screen x="1920" y="413" width="1366" height="768" />
+    <state width="1874" height="444" key="GridCell.Tab.0.left/214.0.1920.1080/0.1080.1366.768@214.0.1920.1080" timestamp="1601637188683" />
+    <state width="1874" height="444" key="GridCell.Tab.0.right" timestamp="1601637188683">
+      <screen x="214" y="0" width="1920" height="1080" />
     </state>
     <state width="970" height="677" key="GridCell.Tab.0.right/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601469594837" />
+    <state width="1874" height="444" key="GridCell.Tab.0.right/214.0.1920.1080/0.1080.1366.768@214.0.1920.1080" timestamp="1601637188683" />
     <state x="2092" y="449" key="SettingsEditor" timestamp="1601537547282">
       <screen x="1920" y="413" width="1366" height="768" />
     </state>
@@ -219,17 +211,23 @@
     </state>
     <state x="2198" y="137" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.0.1366.768/0.35.1920.1045@1920.0.1366.768" timestamp="1601132713425" />
     <state x="2198" y="550" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601499635338" />
-    <state x="1304" y="448" width="616" height="632" key="find.popup" timestamp="1601556077976">
-      <screen x="0" y="448" width="1920" height="632" />
+    <state x="784" y="166" width="770" height="780" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601634573333">
+      <screen x="214" y="0" width="1920" height="1080" />
+    </state>
+    <state x="784" y="166" width="770" height="780" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/214.0.1920.1080/0.1080.1366.768@214.0.1920.1080" timestamp="1601634573333" />
+    <state x="1518" y="0" width="616" height="1080" key="find.popup" timestamp="1601631213771">
+      <screen x="214" y="0" width="1920" height="1080" />
     </state>
     <state x="1304" y="448" width="616" height="632" key="find.popup/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601556077976" />
+    <state x="1518" y="0" width="616" height="1080" key="find.popup/214.0.1920.1080/0.1080.1366.768@214.0.1920.1080" timestamp="1601631213771" />
     <state x="2267" y="385" key="run.anything.popup" timestamp="1601484736410">
       <screen x="1920" y="413" width="1366" height="768" />
     </state>
     <state x="2267" y="385" key="run.anything.popup/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601484736410" />
-    <state x="2266" y="502" width="672" height="678" key="search.everywhere.popup" timestamp="1601494582425">
-      <screen x="1920" y="413" width="1366" height="768" />
+    <state x="700" y="125" width="945" height="954" key="search.everywhere.popup" timestamp="1601640151906">
+      <screen x="214" y="0" width="1920" height="1080" />
     </state>
     <state x="2266" y="502" width="672" height="678" key="search.everywhere.popup/1920.413.1366.768/0.448.1920.632@1920.413.1366.768" timestamp="1601494582425" />
+    <state x="700" y="125" width="945" height="954" key="search.everywhere.popup/214.0.1920.1080/0.1080.1366.768@214.0.1920.1080" timestamp="1601640151906" />
   </component>
 </project>

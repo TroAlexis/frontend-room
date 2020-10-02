@@ -17,10 +17,11 @@
 		@include media-desktop-sm {
 			grid-template: {
 				columns: 1fr;
+				rows: 1fr 1fr;
 			};
 		}
 		grid-template: {
-			columns: 1.5fr 1fr;
+			columns: 60% 40%;
 		};
 	}
 
@@ -36,11 +37,15 @@
 			};
 		}
 	}
+
+	&__img {
+		user-select: none;
+	}
 }
 
 .controls {
 	position: absolute;
-	right: 0;
+	left: 60%;
 	bottom: 0;
 
 	display: flex;
@@ -48,10 +53,12 @@
 	width: rem(170px);
 	height: rem(80px);
 
-	transform: translateX(100%);
 
 	@include media-desktop-sm {
-		transform: none;
+		left: auto;
+		right: 0;
+		bottom: 50%;
+		//transform: translateY(100%);
 	}
 
 	&__back,

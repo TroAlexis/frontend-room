@@ -16,7 +16,18 @@ $header-gap: rem(20px);
 
 	transform: translateX(-50%);
 
-	transition: background-color ease 0.5s;
+	transition: background-color ease 0.5s, color ease 1s;
+
+
+	&.scrolled {
+		color: $color-font--main;
+		background-color: rgba(191, 189, 189, 0.2);
+
+		.header__burger span {
+			background-color: $color-font--main;
+		}
+
+	}
 
 	&__nav {
 		display: flex;
@@ -61,6 +72,7 @@ $header-gap: rem(20px);
 		width: $burger-width;
 		height: $burger-height;
 		margin-right: rem(30px);
+
 		@include media-tablet {
 			display: block;
 		}
@@ -76,7 +88,7 @@ $header-gap: rem(20px);
 			background-color: $color-font--white;
 			transform-origin: left center;
 
-			transition: ease-in-out 0.25s;
+			transition: ease-in-out 0.25s, background-color ease 1s;
 		}
 
 		span:nth-child(1) {

@@ -7,14 +7,13 @@ mixin slider(props)
                     picture.slider__img.u-img-responsive
                         source(srcset=require(`Images/slides/mobile-${slide.img.name}.jpg`) media='(max-width: 480px)')
                         img(src=require(`Images/slides/desktop-${slide.img.name}.jpg`), alt=slide.img.alt)
-                        .caption__controls.controls
-                            button(type='button').controls__back.control
-                            button(type='button').controls__forward.control
                     .slider__caption.caption.u-container
                         h1.caption__header= slide.caption.header
                         p.caption__info= slide.caption.info
                         a.caption__cta
                             span shop now
                             img(src=require('Images/icons/icon-arrow.svg'))
-
+        .caption__controls.controls
+            button(type='button').controls__back.control
+            button(type='button').controls__forward.control
 
